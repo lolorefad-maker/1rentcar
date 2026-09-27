@@ -47,7 +47,7 @@ describe('public catalogue', () => {
   it('seeds the curated fleet with images and thumbnails', async () => {
     const { status, body } = await pub('GET', '/cars');
     assert.equal(status, 200);
-    assert.equal(body.cars.length, 68);
+    assert.equal(body.cars.length, 27);
     assert.ok(body.cars[0].isFeatured, 'featured cars are listed first');
     for (const car of body.cars) {
       assert.ok(car.images.length > 0, `${car.slug} has photos`);
@@ -422,7 +422,7 @@ describe('automation webhook', () => {
     assert.deepEqual(test.body, { ok: true, status: 200 });
 
     await admin('PUT', '/settings', { body: { webhookUrl: url } });
-    const car = (await pub('GET', '/cars')).body.cars[30];
+    const car = (await pub('GET', '/cars')).body.cars[0];
     await pub('POST', '/bookings', { body: bookingBody(car.id, { pickupAt: '2030-08-01T10:00', returnAt: '2030-08-02T10:00' }) });
 
     for (let i = 0; i < 50 && received.length < 2; i += 1) await new Promise((r) => setTimeout(r, 20));

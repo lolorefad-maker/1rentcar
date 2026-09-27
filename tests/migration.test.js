@@ -52,7 +52,7 @@ after(async () => {
 describe('legacy database migration', () => {
   it('replaces the wrongly-labelled prototype cars with the curated fleet', async () => {
     const { body } = await srv.request('GET', '/api/cars');
-    assert.equal(body.cars.length, 68);
+    assert.equal(body.cars.length, 27);
     assert.ok(!body.cars.some((car) => car.model === '911 TARGA 4S'));
   });
 

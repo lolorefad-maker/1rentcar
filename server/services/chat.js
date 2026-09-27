@@ -29,12 +29,12 @@ const INTENTS = {
 };
 
 const CATEGORY_WORDS = {
-  classic: words(['wedding', 'classic', 'vintage', 'bride', 'عرس', 'زفاف', 'اعراس', 'عروس', 'كلاسيك', 'كلاسيكيه']),
+  classic: words(['classic', 'vintage', 'كلاسيك', 'كلاسيكيه']),
   convertible: words(['convertible', 'cabrio', 'roadster', 'open top', 'مكشوفه', 'كشف', 'كابريو']),
   electric: words(['electric', 'كهربائيه', 'كهربائي', 'كهرباء']),
   suv: words(['suv', '4x4', 'offroad', 'off-road', 'desert', 'دفع رباعي', 'صحراء', 'عائليه']),
   sports: words(['sport', 'sports', 'fast', 'performance', 'رياضيه', 'رياضي', 'سريعه']),
-  luxury: words(['luxury', 'executive', 'sedan', 'فخمه', 'فاخره', 'تنفيذيه', 'صالون']),
+  luxury: words(['luxury', 'executive', 'sedan', 'wedding', 'bride', 'عرس', 'زفاف', 'اعراس', 'عروس', 'فخمه', 'فاخره', 'تنفيذيه', 'صالون']),
 };
 
 /** Extra search words (mostly Arabic spellings) keyed by a brand/model fragment. */

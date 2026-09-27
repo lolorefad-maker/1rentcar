@@ -4,6 +4,7 @@ import { migrate } from './db/schema.js';
 import { seed } from './db/seed.js';
 import { createMediaLibrary } from './lib/media.js';
 import { ensureAdminPassword } from './services/auth.js';
+import { syncCuratedFleet } from './curate.js';
 
 /** Opens + migrates + seeds the database and assembles the app. Shared by the server and the tests. */
 export async function bootstrap(config) {
@@ -15,6 +16,7 @@ export async function bootstrap(config) {
     contentFile: config.siteContentFile,
   });
   await ensureAdminPassword(db);
+  await syncCuratedFleet(db);
 
   const media = createMediaLibrary(config.publicDir);
   await media.refresh();

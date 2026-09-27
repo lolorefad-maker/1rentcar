@@ -4,7 +4,7 @@ import { pick, t } from '../core/i18n.js';
 /** Used only if the settings endpoint is unreachable, so the page still renders. */
 const FALLBACK_SETTINGS = {
   businessName: '1 Rent Car',
-  currency: 'USD',
+  currency: 'JOD',
   phone: '+962 7 8857 7884',
   whatsapp: '962788577884',
   email: 'rcar7625@gmail.com',

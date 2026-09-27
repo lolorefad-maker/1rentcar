@@ -16,7 +16,7 @@ const SETTINGS_SCHEMA = {
   instagramUrl: { type: 'string', max: 300, default: 'https://www.instagram.com/1rentcar.jo/' },
   facebookUrl: { type: 'string', max: 300, default: 'https://www.facebook.com/1rentcar' },
   tiktokUrl: { type: 'string', max: 300, default: 'https://www.tiktok.com/@1.rent.car' },
-  currency: { type: 'enum', values: CURRENCIES, required: true, default: 'USD' },
+  currency: { type: 'enum', values: CURRENCIES, required: true, default: 'JOD' },
   airportFee: { type: 'int', min: 0, max: 100000, required: true, default: 50 },
   chauffeurDailyRate: { type: 'int', min: 0, max: 100000, required: true, default: 100 },
   weeklyDiscountPercent: { type: 'int', min: 0, max: 90, required: true, default: 0 },

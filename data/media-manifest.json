@@ -1,0 +1,818 @@
+{
+  "rolls-royce-ghost-2021": {
+    "images": [
+      "/media/cars/rolls-royce-ghost-2021/cover.webp",
+      "/media/cars/rolls-royce-ghost-2021/interior.webp",
+      "/media/cars/rolls-royce-ghost-2021/rear.webp",
+      "/media/cars/rolls-royce-ghost-2021/detail.webp"
+    ],
+    "cover": "/media/cars/rolls-royce-ghost-2021/cover.webp",
+    "interior": "/media/cars/rolls-royce-ghost-2021/interior.webp",
+    "rear": "/media/cars/rolls-royce-ghost-2021/rear.webp",
+    "detail": "/media/cars/rolls-royce-ghost-2021/detail.webp"
+  },
+  "rolls-royce-ghost-two-tone": {
+    "images": [
+      "/media/cars/rolls-royce-ghost-two-tone/cover.webp",
+      "/media/cars/rolls-royce-ghost-two-tone/interior.webp",
+      "/media/cars/rolls-royce-ghost-two-tone/rear.webp",
+      "/media/cars/rolls-royce-ghost-two-tone/detail.webp"
+    ],
+    "cover": "/media/cars/rolls-royce-ghost-two-tone/cover.webp",
+    "interior": "/media/cars/rolls-royce-ghost-two-tone/interior.webp",
+    "rear": "/media/cars/rolls-royce-ghost-two-tone/rear.webp",
+    "detail": "/media/cars/rolls-royce-ghost-two-tone/detail.webp"
+  },
+  "mercedes-maybach-s580": {
+    "images": [
+      "/media/cars/mercedes-maybach-s580/cover.webp",
+      "/media/cars/mercedes-maybach-s580/interior.webp",
+      "/media/cars/mercedes-maybach-s580/rear.webp",
+      "/media/cars/mercedes-maybach-s580/detail.webp"
+    ],
+    "cover": "/media/cars/mercedes-maybach-s580/cover.webp",
+    "interior": "/media/cars/mercedes-maybach-s580/interior.webp",
+    "rear": "/media/cars/mercedes-maybach-s580/rear.webp",
+    "detail": "/media/cars/mercedes-maybach-s580/detail.webp"
+  },
+  "mercedes-maybach-s560-2018": {
+    "images": [
+      "/media/cars/mercedes-maybach-s560-2018/cover.webp",
+      "/media/cars/mercedes-maybach-s560-2018/interior.webp",
+      "/media/cars/mercedes-maybach-s560-2018/rear.webp",
+      "/media/cars/mercedes-maybach-s560-2018/detail.webp"
+    ],
+    "cover": "/media/cars/mercedes-maybach-s560-2018/cover.webp",
+    "interior": "/media/cars/mercedes-maybach-s560-2018/interior.webp",
+    "rear": "/media/cars/mercedes-maybach-s560-2018/rear.webp",
+    "detail": "/media/cars/mercedes-maybach-s560-2018/detail.webp"
+  },
+  "mercedes-s550-2015": {
+    "images": [
+      "/media/cars/mercedes-s550-2015/cover.webp",
+      "/media/cars/mercedes-s550-2015/interior.webp",
+      "/media/cars/mercedes-s550-2015/rear.webp",
+      "/media/cars/mercedes-s550-2015/detail.webp"
+    ],
+    "cover": "/media/cars/mercedes-s550-2015/cover.webp",
+    "interior": "/media/cars/mercedes-s550-2015/interior.webp",
+    "rear": "/media/cars/mercedes-s550-2015/rear.webp",
+    "detail": "/media/cars/mercedes-s550-2015/detail.webp"
+  },
+  "mercedes-s-class-2025-grey": {
+    "images": [
+      "/media/cars/mercedes-s-class-2025-grey/cover.webp",
+      "/media/cars/mercedes-s-class-2025-grey/interior.webp",
+      "/media/cars/mercedes-s-class-2025-grey/rear.webp",
+      "/media/cars/mercedes-s-class-2025-grey/detail.webp"
+    ],
+    "cover": "/media/cars/mercedes-s-class-2025-grey/cover.webp",
+    "interior": "/media/cars/mercedes-s-class-2025-grey/interior.webp",
+    "rear": "/media/cars/mercedes-s-class-2025-grey/rear.webp",
+    "detail": "/media/cars/mercedes-s-class-2025-grey/detail.webp"
+  },
+  "mercedes-s-class-2025-black": {
+    "images": [
+      "/media/cars/mercedes-s-class-2025-black/cover.webp",
+      "/media/cars/mercedes-s-class-2025-black/interior.webp",
+      "/media/cars/mercedes-s-class-2025-black/rear.webp",
+      "/media/cars/mercedes-s-class-2025-black/detail.webp"
+    ],
+    "cover": "/media/cars/mercedes-s-class-2025-black/cover.webp",
+    "interior": "/media/cars/mercedes-s-class-2025-black/interior.webp",
+    "rear": "/media/cars/mercedes-s-class-2025-black/rear.webp",
+    "detail": "/media/cars/mercedes-s-class-2025-black/detail.webp"
+  },
+  "mercedes-s63-brabus-2016": {
+    "images": [
+      "/media/cars/mercedes-s63-brabus-2016/cover.webp",
+      "/media/cars/mercedes-s63-brabus-2016/interior.webp",
+      "/media/cars/mercedes-s63-brabus-2016/rear.webp",
+      "/media/cars/mercedes-s63-brabus-2016/detail.webp"
+    ],
+    "cover": "/media/cars/mercedes-s63-brabus-2016/cover.webp",
+    "interior": "/media/cars/mercedes-s63-brabus-2016/interior.webp",
+    "rear": "/media/cars/mercedes-s63-brabus-2016/rear.webp",
+    "detail": "/media/cars/mercedes-s63-brabus-2016/detail.webp"
+  },
+  "brabus-g800-2021": {
+    "images": [
+      "/media/cars/brabus-g800-2021/cover.webp",
+      "/media/cars/brabus-g800-2021/interior.webp",
+      "/media/cars/brabus-g800-2021/rear.webp",
+      "/media/cars/brabus-g800-2021/detail.webp"
+    ],
+    "cover": "/media/cars/brabus-g800-2021/cover.webp",
+    "interior": "/media/cars/brabus-g800-2021/interior.webp",
+    "rear": "/media/cars/brabus-g800-2021/rear.webp",
+    "detail": "/media/cars/brabus-g800-2021/detail.webp"
+  },
+  "brabus-g700-2021": {
+    "images": [
+      "/media/cars/brabus-g700-2021/cover.webp",
+      "/media/cars/brabus-g700-2021/interior.webp",
+      "/media/cars/brabus-g700-2021/rear.webp",
+      "/media/cars/brabus-g700-2021/detail.webp"
+    ],
+    "cover": "/media/cars/brabus-g700-2021/cover.webp",
+    "interior": "/media/cars/brabus-g700-2021/interior.webp",
+    "rear": "/media/cars/brabus-g700-2021/rear.webp",
+    "detail": "/media/cars/brabus-g700-2021/detail.webp"
+  },
+  "brabus-800-cabriolet-2021": {
+    "images": [
+      "/media/cars/brabus-800-cabriolet-2021/cover.webp",
+      "/media/cars/brabus-800-cabriolet-2021/interior.webp",
+      "/media/cars/brabus-800-cabriolet-2021/rear.webp",
+      "/media/cars/brabus-800-cabriolet-2021/detail.webp"
+    ],
+    "cover": "/media/cars/brabus-800-cabriolet-2021/cover.webp",
+    "interior": "/media/cars/brabus-800-cabriolet-2021/interior.webp",
+    "rear": "/media/cars/brabus-800-cabriolet-2021/rear.webp",
+    "detail": "/media/cars/brabus-800-cabriolet-2021/detail.webp"
+  },
+  "mercedes-amg-g63-2024": {
+    "images": [
+      "/media/cars/mercedes-amg-g63-2024/cover.webp",
+      "/media/cars/mercedes-amg-g63-2024/interior.webp",
+      "/media/cars/mercedes-amg-g63-2024/rear.webp",
+      "/media/cars/mercedes-amg-g63-2024/detail.webp"
+    ],
+    "cover": "/media/cars/mercedes-amg-g63-2024/cover.webp",
+    "interior": "/media/cars/mercedes-amg-g63-2024/interior.webp",
+    "rear": "/media/cars/mercedes-amg-g63-2024/rear.webp",
+    "detail": "/media/cars/mercedes-amg-g63-2024/detail.webp"
+  },
+  "mercedes-amg-g63-2022": {
+    "images": [
+      "/media/cars/mercedes-amg-g63-2022/cover.webp",
+      "/media/cars/mercedes-amg-g63-2022/interior.webp",
+      "/media/cars/mercedes-amg-g63-2022/rear.webp",
+      "/media/cars/mercedes-amg-g63-2022/detail.webp"
+    ],
+    "cover": "/media/cars/mercedes-amg-g63-2022/cover.webp",
+    "interior": "/media/cars/mercedes-amg-g63-2022/interior.webp",
+    "rear": "/media/cars/mercedes-amg-g63-2022/rear.webp",
+    "detail": "/media/cars/mercedes-amg-g63-2022/detail.webp"
+  },
+  "mercedes-amg-g63-2021": {
+    "images": [
+      "/media/cars/mercedes-amg-g63-2021/cover.webp",
+      "/media/cars/mercedes-amg-g63-2021/interior.webp",
+      "/media/cars/mercedes-amg-g63-2021/rear.webp",
+      "/media/cars/mercedes-amg-g63-2021/detail.webp"
+    ],
+    "cover": "/media/cars/mercedes-amg-g63-2021/cover.webp",
+    "interior": "/media/cars/mercedes-amg-g63-2021/interior.webp",
+    "rear": "/media/cars/mercedes-amg-g63-2021/rear.webp",
+    "detail": "/media/cars/mercedes-amg-g63-2021/detail.webp"
+  },
+  "mercedes-amg-g63-white": {
+    "images": [
+      "/media/cars/mercedes-amg-g63-white/cover.webp",
+      "/media/cars/mercedes-amg-g63-white/interior.webp",
+      "/media/cars/mercedes-amg-g63-white/rear.webp",
+      "/media/cars/mercedes-amg-g63-white/detail.webp"
+    ],
+    "cover": "/media/cars/mercedes-amg-g63-white/cover.webp",
+    "interior": "/media/cars/mercedes-amg-g63-white/interior.webp",
+    "rear": "/media/cars/mercedes-amg-g63-white/rear.webp",
+    "detail": "/media/cars/mercedes-amg-g63-white/detail.webp"
+  },
+  "mercedes-amg-sl43-2024": {
+    "images": [
+      "/media/cars/mercedes-amg-sl43-2024/cover.webp",
+      "/media/cars/mercedes-amg-sl43-2024/interior.webp",
+      "/media/cars/mercedes-amg-sl43-2024/rear.webp",
+      "/media/cars/mercedes-amg-sl43-2024/detail.webp"
+    ],
+    "cover": "/media/cars/mercedes-amg-sl43-2024/cover.webp",
+    "interior": "/media/cars/mercedes-amg-sl43-2024/interior.webp",
+    "rear": "/media/cars/mercedes-amg-sl43-2024/rear.webp",
+    "detail": "/media/cars/mercedes-amg-sl43-2024/detail.webp"
+  },
+  "mercedes-e200-cabriolet-2024": {
+    "images": [
+      "/media/cars/mercedes-e200-cabriolet-2024/cover.webp",
+      "/media/cars/mercedes-e200-cabriolet-2024/interior.webp",
+      "/media/cars/mercedes-e200-cabriolet-2024/rear.webp",
+      "/media/cars/mercedes-e200-cabriolet-2024/detail.webp"
+    ],
+    "cover": "/media/cars/mercedes-e200-cabriolet-2024/cover.webp",
+    "interior": "/media/cars/mercedes-e200-cabriolet-2024/interior.webp",
+    "rear": "/media/cars/mercedes-e200-cabriolet-2024/rear.webp",
+    "detail": "/media/cars/mercedes-e200-cabriolet-2024/detail.webp"
+  },
+  "mercedes-amg-e53-2021": {
+    "images": [
+      "/media/cars/mercedes-amg-e53-2021/cover.webp",
+      "/media/cars/mercedes-amg-e53-2021/interior.webp",
+      "/media/cars/mercedes-amg-e53-2021/rear.webp",
+      "/media/cars/mercedes-amg-e53-2021/detail.webp"
+    ],
+    "cover": "/media/cars/mercedes-amg-e53-2021/cover.webp",
+    "interior": "/media/cars/mercedes-amg-e53-2021/interior.webp",
+    "rear": "/media/cars/mercedes-amg-e53-2021/rear.webp",
+    "detail": "/media/cars/mercedes-amg-e53-2021/detail.webp"
+  },
+  "mercedes-amg-e53-2020": {
+    "images": [
+      "/media/cars/mercedes-amg-e53-2020/cover.webp",
+      "/media/cars/mercedes-amg-e53-2020/interior.webp",
+      "/media/cars/mercedes-amg-e53-2020/rear.webp",
+      "/media/cars/mercedes-amg-e53-2020/detail.webp"
+    ],
+    "cover": "/media/cars/mercedes-amg-e53-2020/cover.webp",
+    "interior": "/media/cars/mercedes-amg-e53-2020/interior.webp",
+    "rear": "/media/cars/mercedes-amg-e53-2020/rear.webp",
+    "detail": "/media/cars/mercedes-amg-e53-2020/detail.webp"
+  },
+  "mercedes-amg-cls53": {
+    "images": [
+      "/media/cars/mercedes-amg-cls53/cover.webp",
+      "/media/cars/mercedes-amg-cls53/interior.webp",
+      "/media/cars/mercedes-amg-cls53/rear.webp",
+      "/media/cars/mercedes-amg-cls53/detail.webp"
+    ],
+    "cover": "/media/cars/mercedes-amg-cls53/cover.webp",
+    "interior": "/media/cars/mercedes-amg-cls53/interior.webp",
+    "rear": "/media/cars/mercedes-amg-cls53/rear.webp",
+    "detail": "/media/cars/mercedes-amg-cls53/detail.webp"
+  },
+  "mercedes-cls350-white": {
+    "images": [
+      "/media/cars/mercedes-cls350-white/cover.webp",
+      "/media/cars/mercedes-cls350-white/interior.webp",
+      "/media/cars/mercedes-cls350-white/rear.webp",
+      "/media/cars/mercedes-cls350-white/detail.webp"
+    ],
+    "cover": "/media/cars/mercedes-cls350-white/cover.webp",
+    "interior": "/media/cars/mercedes-cls350-white/interior.webp",
+    "rear": "/media/cars/mercedes-cls350-white/rear.webp",
+    "detail": "/media/cars/mercedes-cls350-white/detail.webp"
+  },
+  "mercedes-cls350-black": {
+    "images": [
+      "/media/cars/mercedes-cls350-black/cover.webp",
+      "/media/cars/mercedes-cls350-black/interior.webp",
+      "/media/cars/mercedes-cls350-black/rear.webp",
+      "/media/cars/mercedes-cls350-black/detail.webp"
+    ],
+    "cover": "/media/cars/mercedes-cls350-black/cover.webp",
+    "interior": "/media/cars/mercedes-cls350-black/interior.webp",
+    "rear": "/media/cars/mercedes-cls350-black/rear.webp",
+    "detail": "/media/cars/mercedes-cls350-black/detail.webp"
+  },
+  "mercedes-e-class-2025-white": {
+    "images": [
+      "/media/cars/mercedes-e-class-2025-white/cover.webp",
+      "/media/cars/mercedes-e-class-2025-white/interior.webp",
+      "/media/cars/mercedes-e-class-2025-white/rear.webp",
+      "/media/cars/mercedes-e-class-2025-white/detail.webp"
+    ],
+    "cover": "/media/cars/mercedes-e-class-2025-white/cover.webp",
+    "interior": "/media/cars/mercedes-e-class-2025-white/interior.webp",
+    "rear": "/media/cars/mercedes-e-class-2025-white/rear.webp",
+    "detail": "/media/cars/mercedes-e-class-2025-white/detail.webp"
+  },
+  "mercedes-e200-avantgarde-2022": {
+    "images": [
+      "/media/cars/mercedes-e200-avantgarde-2022/cover.webp",
+      "/media/cars/mercedes-e200-avantgarde-2022/interior.webp",
+      "/media/cars/mercedes-e200-avantgarde-2022/rear.webp",
+      "/media/cars/mercedes-e200-avantgarde-2022/detail.webp"
+    ],
+    "cover": "/media/cars/mercedes-e200-avantgarde-2022/cover.webp",
+    "interior": "/media/cars/mercedes-e200-avantgarde-2022/interior.webp",
+    "rear": "/media/cars/mercedes-e200-avantgarde-2022/rear.webp",
+    "detail": "/media/cars/mercedes-e200-avantgarde-2022/detail.webp"
+  },
+  "mercedes-e-class-black": {
+    "images": [
+      "/media/cars/mercedes-e-class-black/cover.webp",
+      "/media/cars/mercedes-e-class-black/interior.webp",
+      "/media/cars/mercedes-e-class-black/rear.webp",
+      "/media/cars/mercedes-e-class-black/detail.webp"
+    ],
+    "cover": "/media/cars/mercedes-e-class-black/cover.webp",
+    "interior": "/media/cars/mercedes-e-class-black/interior.webp",
+    "rear": "/media/cars/mercedes-e-class-black/rear.webp",
+    "detail": "/media/cars/mercedes-e-class-black/detail.webp"
+  },
+  "mercedes-e-class-amg-line-black": {
+    "images": [
+      "/media/cars/mercedes-e-class-amg-line-black/cover.webp",
+      "/media/cars/mercedes-e-class-amg-line-black/interior.webp",
+      "/media/cars/mercedes-e-class-amg-line-black/rear.webp",
+      "/media/cars/mercedes-e-class-amg-line-black/detail.webp"
+    ],
+    "cover": "/media/cars/mercedes-e-class-amg-line-black/cover.webp",
+    "interior": "/media/cars/mercedes-e-class-amg-line-black/interior.webp",
+    "rear": "/media/cars/mercedes-e-class-amg-line-black/rear.webp",
+    "detail": "/media/cars/mercedes-e-class-amg-line-black/detail.webp"
+  },
+  "mercedes-e-class-amg-line-white": {
+    "images": [
+      "/media/cars/mercedes-e-class-amg-line-white/cover.webp",
+      "/media/cars/mercedes-e-class-amg-line-white/interior.webp",
+      "/media/cars/mercedes-e-class-amg-line-white/rear.webp",
+      "/media/cars/mercedes-e-class-amg-line-white/detail.webp"
+    ],
+    "cover": "/media/cars/mercedes-e-class-amg-line-white/cover.webp",
+    "interior": "/media/cars/mercedes-e-class-amg-line-white/interior.webp",
+    "rear": "/media/cars/mercedes-e-class-amg-line-white/rear.webp",
+    "detail": "/media/cars/mercedes-e-class-amg-line-white/detail.webp"
+  },
+  "mercedes-e-class-amg-line-silver": {
+    "images": [
+      "/media/cars/mercedes-e-class-amg-line-silver/cover.webp",
+      "/media/cars/mercedes-e-class-amg-line-silver/interior.webp",
+      "/media/cars/mercedes-e-class-amg-line-silver/rear.webp",
+      "/media/cars/mercedes-e-class-amg-line-silver/detail.webp"
+    ],
+    "cover": "/media/cars/mercedes-e-class-amg-line-silver/cover.webp",
+    "interior": "/media/cars/mercedes-e-class-amg-line-silver/interior.webp",
+    "rear": "/media/cars/mercedes-e-class-amg-line-silver/rear.webp",
+    "detail": "/media/cars/mercedes-e-class-amg-line-silver/detail.webp"
+  },
+  "mercedes-gle350-2024": {
+    "images": [
+      "/media/cars/mercedes-gle350-2024/cover.webp",
+      "/media/cars/mercedes-gle350-2024/interior.webp",
+      "/media/cars/mercedes-gle350-2024/rear.webp",
+      "/media/cars/mercedes-gle350-2024/detail.webp"
+    ],
+    "cover": "/media/cars/mercedes-gle350-2024/cover.webp",
+    "interior": "/media/cars/mercedes-gle350-2024/interior.webp",
+    "rear": "/media/cars/mercedes-gle350-2024/rear.webp",
+    "detail": "/media/cars/mercedes-gle350-2024/detail.webp"
+  },
+  "mercedes-gle350e-2023": {
+    "images": [
+      "/media/cars/mercedes-gle350e-2023/cover.webp",
+      "/media/cars/mercedes-gle350e-2023/interior.webp",
+      "/media/cars/mercedes-gle350e-2023/rear.webp",
+      "/media/cars/mercedes-gle350e-2023/detail.webp"
+    ],
+    "cover": "/media/cars/mercedes-gle350e-2023/cover.webp",
+    "interior": "/media/cars/mercedes-gle350e-2023/interior.webp",
+    "rear": "/media/cars/mercedes-gle350e-2023/rear.webp",
+    "detail": "/media/cars/mercedes-gle350e-2023/detail.webp"
+  },
+  "mercedes-280sl-1971": {
+    "images": [
+      "/media/cars/mercedes-280sl-1971/cover.webp",
+      "/media/cars/mercedes-280sl-1971/interior.webp",
+      "/media/cars/mercedes-280sl-1971/rear.webp",
+      "/media/cars/mercedes-280sl-1971/detail.webp"
+    ],
+    "cover": "/media/cars/mercedes-280sl-1971/cover.webp",
+    "interior": "/media/cars/mercedes-280sl-1971/interior.webp",
+    "rear": "/media/cars/mercedes-280sl-1971/rear.webp",
+    "detail": "/media/cars/mercedes-280sl-1971/detail.webp"
+  },
+  "mercedes-560sl-1986": {
+    "images": [
+      "/media/cars/mercedes-560sl-1986/cover.webp",
+      "/media/cars/mercedes-560sl-1986/interior.webp",
+      "/media/cars/mercedes-560sl-1986/rear.webp",
+      "/media/cars/mercedes-560sl-1986/detail.webp"
+    ],
+    "cover": "/media/cars/mercedes-560sl-1986/cover.webp",
+    "interior": "/media/cars/mercedes-560sl-1986/interior.webp",
+    "rear": "/media/cars/mercedes-560sl-1986/rear.webp",
+    "detail": "/media/cars/mercedes-560sl-1986/detail.webp"
+  },
+  "range-rover-autobiography-2024": {
+    "images": [
+      "/media/cars/range-rover-autobiography-2024/cover.webp",
+      "/media/cars/range-rover-autobiography-2024/interior.webp",
+      "/media/cars/range-rover-autobiography-2024/rear.webp",
+      "/media/cars/range-rover-autobiography-2024/detail.webp"
+    ],
+    "cover": "/media/cars/range-rover-autobiography-2024/cover.webp",
+    "interior": "/media/cars/range-rover-autobiography-2024/interior.webp",
+    "rear": "/media/cars/range-rover-autobiography-2024/rear.webp",
+    "detail": "/media/cars/range-rover-autobiography-2024/detail.webp"
+  },
+  "range-rover-vogue-2025": {
+    "images": [
+      "/media/cars/range-rover-vogue-2025/cover.webp",
+      "/media/cars/range-rover-vogue-2025/interior.webp",
+      "/media/cars/range-rover-vogue-2025/rear.webp",
+      "/media/cars/range-rover-vogue-2025/detail.webp"
+    ],
+    "cover": "/media/cars/range-rover-vogue-2025/cover.webp",
+    "interior": "/media/cars/range-rover-vogue-2025/interior.webp",
+    "rear": "/media/cars/range-rover-vogue-2025/rear.webp",
+    "detail": "/media/cars/range-rover-vogue-2025/detail.webp"
+  },
+  "range-rover-sport-2025": {
+    "images": [
+      "/media/cars/range-rover-sport-2025/cover.webp",
+      "/media/cars/range-rover-sport-2025/interior.webp",
+      "/media/cars/range-rover-sport-2025/rear.webp",
+      "/media/cars/range-rover-sport-2025/detail.webp"
+    ],
+    "cover": "/media/cars/range-rover-sport-2025/cover.webp",
+    "interior": "/media/cars/range-rover-sport-2025/interior.webp",
+    "rear": "/media/cars/range-rover-sport-2025/rear.webp",
+    "detail": "/media/cars/range-rover-sport-2025/detail.webp"
+  },
+  "range-rover-sport-hse-dynamic-2022": {
+    "images": [
+      "/media/cars/range-rover-sport-hse-dynamic-2022/cover.webp",
+      "/media/cars/range-rover-sport-hse-dynamic-2022/interior.webp",
+      "/media/cars/range-rover-sport-hse-dynamic-2022/rear.webp",
+      "/media/cars/range-rover-sport-hse-dynamic-2022/detail.webp"
+    ],
+    "cover": "/media/cars/range-rover-sport-hse-dynamic-2022/cover.webp",
+    "interior": "/media/cars/range-rover-sport-hse-dynamic-2022/interior.webp",
+    "rear": "/media/cars/range-rover-sport-hse-dynamic-2022/rear.webp",
+    "detail": "/media/cars/range-rover-sport-hse-dynamic-2022/detail.webp"
+  },
+  "range-rover-sport-hse-2021": {
+    "images": [
+      "/media/cars/range-rover-sport-hse-2021/cover.webp",
+      "/media/cars/range-rover-sport-hse-2021/interior.webp",
+      "/media/cars/range-rover-sport-hse-2021/rear.webp",
+      "/media/cars/range-rover-sport-hse-2021/detail.webp"
+    ],
+    "cover": "/media/cars/range-rover-sport-hse-2021/cover.webp",
+    "interior": "/media/cars/range-rover-sport-hse-2021/interior.webp",
+    "rear": "/media/cars/range-rover-sport-hse-2021/rear.webp",
+    "detail": "/media/cars/range-rover-sport-hse-2021/detail.webp"
+  },
+  "range-rover-sport-2019": {
+    "images": [
+      "/media/cars/range-rover-sport-2019/cover.webp",
+      "/media/cars/range-rover-sport-2019/interior.webp",
+      "/media/cars/range-rover-sport-2019/rear.webp",
+      "/media/cars/range-rover-sport-2019/detail.webp"
+    ],
+    "cover": "/media/cars/range-rover-sport-2019/cover.webp",
+    "interior": "/media/cars/range-rover-sport-2019/interior.webp",
+    "rear": "/media/cars/range-rover-sport-2019/rear.webp",
+    "detail": "/media/cars/range-rover-sport-2019/detail.webp"
+  },
+  "land-rover-defender-2025": {
+    "images": [
+      "/media/cars/land-rover-defender-2025/cover.webp",
+      "/media/cars/land-rover-defender-2025/interior.webp",
+      "/media/cars/land-rover-defender-2025/rear.webp",
+      "/media/cars/land-rover-defender-2025/detail.webp"
+    ],
+    "cover": "/media/cars/land-rover-defender-2025/cover.webp",
+    "interior": "/media/cars/land-rover-defender-2025/interior.webp",
+    "rear": "/media/cars/land-rover-defender-2025/rear.webp",
+    "detail": "/media/cars/land-rover-defender-2025/detail.webp"
+  },
+  "land-rover-defender-2021": {
+    "images": [
+      "/media/cars/land-rover-defender-2021/cover.webp",
+      "/media/cars/land-rover-defender-2021/interior.webp",
+      "/media/cars/land-rover-defender-2021/rear.webp",
+      "/media/cars/land-rover-defender-2021/detail.webp"
+    ],
+    "cover": "/media/cars/land-rover-defender-2021/cover.webp",
+    "interior": "/media/cars/land-rover-defender-2021/interior.webp",
+    "rear": "/media/cars/land-rover-defender-2021/rear.webp",
+    "detail": "/media/cars/land-rover-defender-2021/detail.webp"
+  },
+  "land-rover-defender-grey": {
+    "images": [
+      "/media/cars/land-rover-defender-grey/cover.webp",
+      "/media/cars/land-rover-defender-grey/interior.webp",
+      "/media/cars/land-rover-defender-grey/rear.webp",
+      "/media/cars/land-rover-defender-grey/detail.webp"
+    ],
+    "cover": "/media/cars/land-rover-defender-grey/cover.webp",
+    "interior": "/media/cars/land-rover-defender-grey/interior.webp",
+    "rear": "/media/cars/land-rover-defender-grey/rear.webp",
+    "detail": "/media/cars/land-rover-defender-grey/detail.webp"
+  },
+  "cadillac-escalade-2025": {
+    "images": [
+      "/media/cars/cadillac-escalade-2025/cover.webp",
+      "/media/cars/cadillac-escalade-2025/interior.webp",
+      "/media/cars/cadillac-escalade-2025/rear.webp",
+      "/media/cars/cadillac-escalade-2025/detail.webp"
+    ],
+    "cover": "/media/cars/cadillac-escalade-2025/cover.webp",
+    "interior": "/media/cars/cadillac-escalade-2025/interior.webp",
+    "rear": "/media/cars/cadillac-escalade-2025/rear.webp",
+    "detail": "/media/cars/cadillac-escalade-2025/detail.webp"
+  },
+  "cadillac-escalade-green": {
+    "images": [
+      "/media/cars/cadillac-escalade-green/cover.webp",
+      "/media/cars/cadillac-escalade-green/interior.webp",
+      "/media/cars/cadillac-escalade-green/rear.webp",
+      "/media/cars/cadillac-escalade-green/detail.webp"
+    ],
+    "cover": "/media/cars/cadillac-escalade-green/cover.webp",
+    "interior": "/media/cars/cadillac-escalade-green/interior.webp",
+    "rear": "/media/cars/cadillac-escalade-green/rear.webp",
+    "detail": "/media/cars/cadillac-escalade-green/detail.webp"
+  },
+  "cadillac-escalade-black": {
+    "images": [
+      "/media/cars/cadillac-escalade-black/cover.webp",
+      "/media/cars/cadillac-escalade-black/interior.webp",
+      "/media/cars/cadillac-escalade-black/rear.webp",
+      "/media/cars/cadillac-escalade-black/detail.webp"
+    ],
+    "cover": "/media/cars/cadillac-escalade-black/cover.webp",
+    "interior": "/media/cars/cadillac-escalade-black/interior.webp",
+    "rear": "/media/cars/cadillac-escalade-black/rear.webp",
+    "detail": "/media/cars/cadillac-escalade-black/detail.webp"
+  },
+  "chevrolet-tahoe-2024": {
+    "images": [
+      "/media/cars/chevrolet-tahoe-2024/cover.webp",
+      "/media/cars/chevrolet-tahoe-2024/interior.webp",
+      "/media/cars/chevrolet-tahoe-2024/rear.webp",
+      "/media/cars/chevrolet-tahoe-2024/detail.webp"
+    ],
+    "cover": "/media/cars/chevrolet-tahoe-2024/cover.webp",
+    "interior": "/media/cars/chevrolet-tahoe-2024/interior.webp",
+    "rear": "/media/cars/chevrolet-tahoe-2024/rear.webp",
+    "detail": "/media/cars/chevrolet-tahoe-2024/detail.webp"
+  },
+  "chevrolet-tahoe-premier-2022": {
+    "images": [
+      "/media/cars/chevrolet-tahoe-premier-2022/cover.webp",
+      "/media/cars/chevrolet-tahoe-premier-2022/interior.webp",
+      "/media/cars/chevrolet-tahoe-premier-2022/rear.webp",
+      "/media/cars/chevrolet-tahoe-premier-2022/detail.webp"
+    ],
+    "cover": "/media/cars/chevrolet-tahoe-premier-2022/cover.webp",
+    "interior": "/media/cars/chevrolet-tahoe-premier-2022/interior.webp",
+    "rear": "/media/cars/chevrolet-tahoe-premier-2022/rear.webp",
+    "detail": "/media/cars/chevrolet-tahoe-premier-2022/detail.webp"
+  },
+  "toyota-sequoia-2024": {
+    "images": [
+      "/media/cars/toyota-sequoia-2024/cover.webp",
+      "/media/cars/toyota-sequoia-2024/interior.webp",
+      "/media/cars/toyota-sequoia-2024/rear.webp",
+      "/media/cars/toyota-sequoia-2024/detail.webp"
+    ],
+    "cover": "/media/cars/toyota-sequoia-2024/cover.webp",
+    "interior": "/media/cars/toyota-sequoia-2024/interior.webp",
+    "rear": "/media/cars/toyota-sequoia-2024/rear.webp",
+    "detail": "/media/cars/toyota-sequoia-2024/detail.webp"
+  },
+  "toyota-land-cruiser-lc300": {
+    "images": [
+      "/media/cars/toyota-land-cruiser-lc300/cover.webp",
+      "/media/cars/toyota-land-cruiser-lc300/interior.webp",
+      "/media/cars/toyota-land-cruiser-lc300/rear.webp",
+      "/media/cars/toyota-land-cruiser-lc300/detail.webp"
+    ],
+    "cover": "/media/cars/toyota-land-cruiser-lc300/cover.webp",
+    "interior": "/media/cars/toyota-land-cruiser-lc300/interior.webp",
+    "rear": "/media/cars/toyota-land-cruiser-lc300/rear.webp",
+    "detail": "/media/cars/toyota-land-cruiser-lc300/detail.webp"
+  },
+  "toyota-land-cruiser-2022": {
+    "images": [
+      "/media/cars/toyota-land-cruiser-2022/cover.webp",
+      "/media/cars/toyota-land-cruiser-2022/interior.webp",
+      "/media/cars/toyota-land-cruiser-2022/rear.webp",
+      "/media/cars/toyota-land-cruiser-2022/detail.webp"
+    ],
+    "cover": "/media/cars/toyota-land-cruiser-2022/cover.webp",
+    "interior": "/media/cars/toyota-land-cruiser-2022/interior.webp",
+    "rear": "/media/cars/toyota-land-cruiser-2022/rear.webp",
+    "detail": "/media/cars/toyota-land-cruiser-2022/detail.webp"
+  },
+  "jeep-grand-cherokee-srt": {
+    "images": [
+      "/media/cars/jeep-grand-cherokee-srt/cover.webp",
+      "/media/cars/jeep-grand-cherokee-srt/interior.webp",
+      "/media/cars/jeep-grand-cherokee-srt/rear.webp",
+      "/media/cars/jeep-grand-cherokee-srt/detail.webp"
+    ],
+    "cover": "/media/cars/jeep-grand-cherokee-srt/cover.webp",
+    "interior": "/media/cars/jeep-grand-cherokee-srt/interior.webp",
+    "rear": "/media/cars/jeep-grand-cherokee-srt/rear.webp",
+    "detail": "/media/cars/jeep-grand-cherokee-srt/detail.webp"
+  },
+  "jeep-gladiator-2024": {
+    "images": [
+      "/media/cars/jeep-gladiator-2024/cover.webp",
+      "/media/cars/jeep-gladiator-2024/interior.webp",
+      "/media/cars/jeep-gladiator-2024/rear.webp",
+      "/media/cars/jeep-gladiator-2024/detail.webp"
+    ],
+    "cover": "/media/cars/jeep-gladiator-2024/cover.webp",
+    "interior": "/media/cars/jeep-gladiator-2024/interior.webp",
+    "rear": "/media/cars/jeep-gladiator-2024/rear.webp",
+    "detail": "/media/cars/jeep-gladiator-2024/detail.webp"
+  },
+  "jeep-gladiator-rubicon-2022": {
+    "images": [
+      "/media/cars/jeep-gladiator-rubicon-2022/cover.webp",
+      "/media/cars/jeep-gladiator-rubicon-2022/interior.webp",
+      "/media/cars/jeep-gladiator-rubicon-2022/rear.webp",
+      "/media/cars/jeep-gladiator-rubicon-2022/detail.webp"
+    ],
+    "cover": "/media/cars/jeep-gladiator-rubicon-2022/cover.webp",
+    "interior": "/media/cars/jeep-gladiator-rubicon-2022/interior.webp",
+    "rear": "/media/cars/jeep-gladiator-rubicon-2022/rear.webp",
+    "detail": "/media/cars/jeep-gladiator-rubicon-2022/detail.webp"
+  },
+  "jetour-t2-2025": {
+    "images": [
+      "/media/cars/jetour-t2-2025/cover.webp",
+      "/media/cars/jetour-t2-2025/interior.webp",
+      "/media/cars/jetour-t2-2025/rear.webp",
+      "/media/cars/jetour-t2-2025/detail.webp"
+    ],
+    "cover": "/media/cars/jetour-t2-2025/cover.webp",
+    "interior": "/media/cars/jetour-t2-2025/interior.webp",
+    "rear": "/media/cars/jetour-t2-2025/rear.webp",
+    "detail": "/media/cars/jetour-t2-2025/detail.webp"
+  },
+  "bmw-7-series": {
+    "images": [
+      "/media/cars/bmw-7-series/cover.webp",
+      "/media/cars/bmw-7-series/interior.webp",
+      "/media/cars/bmw-7-series/rear.webp",
+      "/media/cars/bmw-7-series/detail.webp"
+    ],
+    "cover": "/media/cars/bmw-7-series/cover.webp",
+    "interior": "/media/cars/bmw-7-series/interior.webp",
+    "rear": "/media/cars/bmw-7-series/rear.webp",
+    "detail": "/media/cars/bmw-7-series/detail.webp"
+  },
+  "bmw-730li": {
+    "images": [
+      "/media/cars/bmw-730li/cover.webp",
+      "/media/cars/bmw-730li/interior.webp",
+      "/media/cars/bmw-730li/rear.webp",
+      "/media/cars/bmw-730li/detail.webp"
+    ],
+    "cover": "/media/cars/bmw-730li/cover.webp",
+    "interior": "/media/cars/bmw-730li/interior.webp",
+    "rear": "/media/cars/bmw-730li/rear.webp",
+    "detail": "/media/cars/bmw-730li/detail.webp"
+  },
+  "bmw-x6-2025": {
+    "images": [
+      "/media/cars/bmw-x6-2025/cover.webp",
+      "/media/cars/bmw-x6-2025/interior.webp",
+      "/media/cars/bmw-x6-2025/rear.webp",
+      "/media/cars/bmw-x6-2025/detail.webp"
+    ],
+    "cover": "/media/cars/bmw-x6-2025/cover.webp",
+    "interior": "/media/cars/bmw-x6-2025/interior.webp",
+    "rear": "/media/cars/bmw-x6-2025/rear.webp",
+    "detail": "/media/cars/bmw-x6-2025/detail.webp"
+  },
+  "bmw-x6-grey": {
+    "images": [
+      "/media/cars/bmw-x6-grey/cover.webp",
+      "/media/cars/bmw-x6-grey/interior.webp",
+      "/media/cars/bmw-x6-grey/rear.webp",
+      "/media/cars/bmw-x6-grey/detail.webp"
+    ],
+    "cover": "/media/cars/bmw-x6-grey/cover.webp",
+    "interior": "/media/cars/bmw-x6-grey/interior.webp",
+    "rear": "/media/cars/bmw-x6-grey/rear.webp",
+    "detail": "/media/cars/bmw-x6-grey/detail.webp"
+  },
+  "bmw-x5-xdrive40i-2024": {
+    "images": [
+      "/media/cars/bmw-x5-xdrive40i-2024/cover.webp",
+      "/media/cars/bmw-x5-xdrive40i-2024/interior.webp",
+      "/media/cars/bmw-x5-xdrive40i-2024/rear.webp",
+      "/media/cars/bmw-x5-xdrive40i-2024/detail.webp"
+    ],
+    "cover": "/media/cars/bmw-x5-xdrive40i-2024/cover.webp",
+    "interior": "/media/cars/bmw-x5-xdrive40i-2024/interior.webp",
+    "rear": "/media/cars/bmw-x5-xdrive40i-2024/rear.webp",
+    "detail": "/media/cars/bmw-x5-xdrive40i-2024/detail.webp"
+  },
+  "bmw-3-series-2024": {
+    "images": [
+      "/media/cars/bmw-3-series-2024/cover.webp",
+      "/media/cars/bmw-3-series-2024/interior.webp",
+      "/media/cars/bmw-3-series-2024/rear.webp",
+      "/media/cars/bmw-3-series-2024/detail.webp"
+    ],
+    "cover": "/media/cars/bmw-3-series-2024/cover.webp",
+    "interior": "/media/cars/bmw-3-series-2024/interior.webp",
+    "rear": "/media/cars/bmw-3-series-2024/rear.webp",
+    "detail": "/media/cars/bmw-3-series-2024/detail.webp"
+  },
+  "hongqi-h9-2024": {
+    "images": [
+      "/media/cars/hongqi-h9-2024/cover.webp",
+      "/media/cars/hongqi-h9-2024/interior.webp",
+      "/media/cars/hongqi-h9-2024/rear.webp",
+      "/media/cars/hongqi-h9-2024/detail.webp"
+    ],
+    "cover": "/media/cars/hongqi-h9-2024/cover.webp",
+    "interior": "/media/cars/hongqi-h9-2024/interior.webp",
+    "rear": "/media/cars/hongqi-h9-2024/rear.webp",
+    "detail": "/media/cars/hongqi-h9-2024/detail.webp"
+  },
+  "hongqi-e-hs9-2024": {
+    "images": [
+      "/media/cars/hongqi-e-hs9-2024/cover.webp",
+      "/media/cars/hongqi-e-hs9-2024/interior.webp",
+      "/media/cars/hongqi-e-hs9-2024/rear.webp",
+      "/media/cars/hongqi-e-hs9-2024/detail.webp"
+    ],
+    "cover": "/media/cars/hongqi-e-hs9-2024/cover.webp",
+    "interior": "/media/cars/hongqi-e-hs9-2024/interior.webp",
+    "rear": "/media/cars/hongqi-e-hs9-2024/rear.webp",
+    "detail": "/media/cars/hongqi-e-hs9-2024/detail.webp"
+  },
+  "polestar-2": {
+    "images": [
+      "/media/cars/polestar-2/cover.webp",
+      "/media/cars/polestar-2/interior.webp",
+      "/media/cars/polestar-2/rear.webp",
+      "/media/cars/polestar-2/detail.webp"
+    ],
+    "cover": "/media/cars/polestar-2/cover.webp",
+    "interior": "/media/cars/polestar-2/interior.webp",
+    "rear": "/media/cars/polestar-2/rear.webp",
+    "detail": "/media/cars/polestar-2/detail.webp"
+  },
+  "chevrolet-camaro-zl1-2022": {
+    "images": [
+      "/media/cars/chevrolet-camaro-zl1-2022/cover.webp",
+      "/media/cars/chevrolet-camaro-zl1-2022/interior.webp",
+      "/media/cars/chevrolet-camaro-zl1-2022/rear.webp",
+      "/media/cars/chevrolet-camaro-zl1-2022/detail.webp"
+    ],
+    "cover": "/media/cars/chevrolet-camaro-zl1-2022/cover.webp",
+    "interior": "/media/cars/chevrolet-camaro-zl1-2022/interior.webp",
+    "rear": "/media/cars/chevrolet-camaro-zl1-2022/rear.webp",
+    "detail": "/media/cars/chevrolet-camaro-zl1-2022/detail.webp"
+  },
+  "chevrolet-camaro-zl1-convertible": {
+    "images": [
+      "/media/cars/chevrolet-camaro-zl1-convertible/cover.webp",
+      "/media/cars/chevrolet-camaro-zl1-convertible/interior.webp",
+      "/media/cars/chevrolet-camaro-zl1-convertible/rear.webp",
+      "/media/cars/chevrolet-camaro-zl1-convertible/detail.webp"
+    ],
+    "cover": "/media/cars/chevrolet-camaro-zl1-convertible/cover.webp",
+    "interior": "/media/cars/chevrolet-camaro-zl1-convertible/interior.webp",
+    "rear": "/media/cars/chevrolet-camaro-zl1-convertible/rear.webp",
+    "detail": "/media/cars/chevrolet-camaro-zl1-convertible/detail.webp"
+  },
+  "chevrolet-impala-ss-1966": {
+    "images": [
+      "/media/cars/chevrolet-impala-ss-1966/cover.webp",
+      "/media/cars/chevrolet-impala-ss-1966/interior.webp",
+      "/media/cars/chevrolet-impala-ss-1966/rear.webp",
+      "/media/cars/chevrolet-impala-ss-1966/detail.webp"
+    ],
+    "cover": "/media/cars/chevrolet-impala-ss-1966/cover.webp",
+    "interior": "/media/cars/chevrolet-impala-ss-1966/interior.webp",
+    "rear": "/media/cars/chevrolet-impala-ss-1966/rear.webp",
+    "detail": "/media/cars/chevrolet-impala-ss-1966/detail.webp"
+  },
+  "mg-b-roadster": {
+    "images": [
+      "/media/cars/mg-b-roadster/cover.webp",
+      "/media/cars/mg-b-roadster/interior.webp",
+      "/media/cars/mg-b-roadster/rear.webp",
+      "/media/cars/mg-b-roadster/detail.webp"
+    ],
+    "cover": "/media/cars/mg-b-roadster/cover.webp",
+    "interior": "/media/cars/mg-b-roadster/interior.webp",
+    "rear": "/media/cars/mg-b-roadster/rear.webp",
+    "detail": "/media/cars/mg-b-roadster/detail.webp"
+  },
+  "british-classic-roadster": {
+    "images": [
+      "/media/cars/british-classic-roadster/cover.webp",
+      "/media/cars/british-classic-roadster/interior.webp",
+      "/media/cars/british-classic-roadster/rear.webp",
+      "/media/cars/british-classic-roadster/detail.webp"
+    ],
+    "cover": "/media/cars/british-classic-roadster/cover.webp",
+    "interior": "/media/cars/british-classic-roadster/interior.webp",
+    "rear": "/media/cars/british-classic-roadster/rear.webp",
+    "detail": "/media/cars/british-classic-roadster/detail.webp"
+  },
+  "vintage-luxury-roadster-2023": {
+    "images": [
+      "/media/cars/vintage-luxury-roadster-2023/cover.webp",
+      "/media/cars/vintage-luxury-roadster-2023/interior.webp",
+      "/media/cars/vintage-luxury-roadster-2023/rear.webp",
+      "/media/cars/vintage-luxury-roadster-2023/detail.webp"
+    ],
+    "cover": "/media/cars/vintage-luxury-roadster-2023/cover.webp",
+    "interior": "/media/cars/vintage-luxury-roadster-2023/interior.webp",
+    "rear": "/media/cars/vintage-luxury-roadster-2023/rear.webp",
+    "detail": "/media/cars/vintage-luxury-roadster-2023/detail.webp"
+  }
+}

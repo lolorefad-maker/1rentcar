@@ -1,0 +1,16 @@
+services:
+  - type: web
+    name: luxury-motors
+    env: node
+    plan: free
+    region: fra
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: BUSINESS_TIMEZONE
+        value: Asia/Amman
+      - key: ADMIN_PASSWORD
+        generateValue: false
+        value: admin123

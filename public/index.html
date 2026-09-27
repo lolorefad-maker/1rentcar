@@ -1,0 +1,418 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>{{businessName}} — Luxury car rental in Amman</title>
+    <meta name="description" content="Rent a Rolls-Royce, Maybach, G-Class, Range Rover or classic wedding car in Amman, Jordan. Live prices, airport delivery and private chauffeurs." />
+    <meta name="theme-color" content="#0a0a0b" />
+    <link rel="canonical" href="{{origin}}/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="{{businessName}}" />
+    <meta property="og:title" content="{{businessName}} — Luxury car rental in Amman" />
+    <meta property="og:description" content="Rolls-Royce, Maybach, G-Class, Range Rover and timeless classics — delivered to your door, your hotel or Queen Alia Airport." />
+    <meta property="og:image" content="{{origin}}{{heroImage}}" />
+    <meta property="og:url" content="{{origin}}/" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="icon" href="/assets/img/favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cairo:wght@500;600;700;800&family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=El+Messiri:wght@500;600;700&family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&family=Manrope:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,600;0,700;1,600&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" />
+    <link rel="stylesheet" href="/assets/css/base.css?v=bespoke" />
+    <link rel="stylesheet" href="/assets/css/site.css?v=bespoke" />
+    <link rel="preload" as="image" href="{{heroImage}}" fetchpriority="high" />
+    <script type="module" src="/assets/js/site/home.js?v=bespoke"></script>
+    <script type="application/ld+json">
+      {"@context":"https://schema.org","@type":"AutoRental","name":"{{businessName}}","url":"{{origin}}/","image":"{{origin}}{{heroImage}}","address":{"@type":"PostalAddress","addressLocality":"Amman","addressCountry":"JO"}}
+    </script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main" data-i18n="nav.skip">Skip to content</a>
+
+    <header class="site-header" data-header>
+      <div class="container site-header__inner">
+        <a class="brand" href="/" data-brand>
+          <svg class="brand-car-icon" viewBox="0 0 100 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M5 24 C15 24 24 14 42 12 C58 10 70 15 95 24 M15 24 C22 17 38 12 55 12 C72 12 80 19 88 24 M28 17 C35 13 45 13 52 17 M60 17 C66 13 74 13 79 17" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+          </svg>
+          <span class="brand-title">AUTOCAR</span>
+        </a>
+        <nav class="nav" data-nav aria-label="Primary">
+          <a href="/" data-i18n="nav.home">Home</a>
+          <a href="#fleet" data-i18n="nav.gallery">Gallery</a>
+          <a href="#services" data-i18n="nav.about">About</a>
+          <a href="#contact" data-i18n="nav.contact">Contact Us</a>
+        </nav>
+        <div class="header-actions">
+          <button class="btn btn--ghost btn--sm lang-btn" type="button" data-lang-toggle data-i18n="nav.language" data-i18n-attr="aria-label:nav.languageLabel">العربية</button>
+          <a class="header-contact-badge" data-link="whatsapp" target="_blank" rel="noopener" dir="ltr">
+            <i class="ri-phone-fill"></i>
+            <span data-bind="phone">+962 7 9000 0000</span>
+          </a>
+          <button class="icon-btn menu-btn" type="button" data-menu-toggle aria-expanded="false" data-i18n-attr="aria-label:nav.menu"><i class="ri-menu-4-line" aria-hidden="true"></i></button>
+        </div>
+      </div>
+    </header>
+
+    <main id="main">
+      <!-- Hero: Luxury Lifestyle Rentals -->
+      <section class="hero hero--lifestyle" aria-labelledby="hero-title">
+        <div class="hero__media" data-hero-media>
+          <figure class="hero__slide is-active"><img src="{{heroImage}}" alt="" fetchpriority="high" decoding="async" /></figure>
+        </div>
+        <div class="container hero__inner">
+          <div class="hero__content">
+            <h1 class="hero__title display" id="hero-title">
+              <span class="hero__title-line">LUXURY</span>
+              <span class="hero__title-line">LIFESTYLE</span>
+              <em class="hero__title-line hero__title-accent">RENTALS</em>
+            </h1>
+            <p class="hero__lead" data-i18n="hero.lead">Enjoy the most luxurious experience</p>
+            <div class="hero__actions">
+              <a href="#fleet" class="btn-discover">DISCOVER</a>
+            </div>
+
+            <!-- Intuitive Fast Availability Finder -->
+            <form class="search-panel" data-hero-search>
+              <label class="field">
+                <span class="field__label" data-i18n="search.pickup">Pick-up</span>
+                <input class="control" type="datetime-local" name="pickupAt" required />
+              </label>
+              <label class="field">
+                <span class="field__label" data-i18n="search.return">Return</span>
+                <input class="control" type="datetime-local" name="returnAt" required />
+              </label>
+              <button class="btn btn--primary" type="submit"><i class="ri-search-line" aria-hidden="true"></i><span data-i18n="search.submit">Find my car</span></button>
+            </form>
+            <p class="search-error" data-search-error role="alert"></p>
+          </div>
+          <div class="hero-feature" data-hero-feature aria-live="polite"></div>
+        </div>
+      </section>
+
+      <!-- Todays Specials -->
+      <section class="section section--specials" id="fleet" aria-labelledby="fleet-title">
+        <div class="container">
+          <div class="specials-top-bar" data-reveal>
+            <div class="specials-title-wrap">
+              <h2 class="specials-heading" id="fleet-title" data-i18n="fleet.todaysSpecials">TODAYS SPECIALS</h2>
+            </div>
+            <div class="specials-tabs">
+              <div class="chip-row" data-fleet-categories role="group"></div>
+            </div>
+          </div>
+
+          <div class="fleet-toolbar">
+            <div class="fleet-controls">
+              <label class="sr-only" for="fleet-brand" data-i18n="fleet.brand"></label>
+              <select class="control" id="fleet-brand" data-fleet-brand></select>
+              <label class="sr-only" for="fleet-sort" data-i18n="fleet.sort"></label>
+              <select class="control" id="fleet-sort" data-fleet-sort>
+                <option value="recommended" data-i18n="sort.recommended">Recommended</option>
+                <option value="priceAsc" data-i18n="sort.priceAsc">Price: low to high</option>
+                <option value="priceDesc" data-i18n="sort.priceDesc">Price: high to low</option>
+                <option value="newest" data-i18n="sort.newest">Newest first</option>
+              </select>
+              <div class="search-field">
+                <i class="ri-search-line" aria-hidden="true"></i>
+                <label class="sr-only" for="fleet-search" data-i18n="fleet.search"></label>
+                <input class="control" id="fleet-search" type="search" autocomplete="off" data-fleet-search data-i18n-attr="placeholder:fleet.searchPlaceholder" />
+              </div>
+            </div>
+            <div class="fleet-status" data-fleet-status aria-live="polite"></div>
+          </div>
+
+          <div class="fleet-grid" data-fleet-grid>
+            <div class="card-skeleton skeleton"></div>
+            <div class="card-skeleton skeleton"></div>
+            <div class="card-skeleton skeleton"></div>
+            <div class="card-skeleton skeleton"></div>
+            <div class="card-skeleton skeleton"></div>
+            <div class="card-skeleton skeleton"></div>
+          </div>
+          <div class="fleet-more" data-fleet-more hidden>
+            <button class="btn btn--ghost" type="button" data-i18n="fleet.showMore">Show more cars</button>
+          </div>
+        </div>
+      </section>
+
+      <!-- Dramatic Spotlight Section: BOYSTOY / ROYAL VIP FLEET -->
+      <section class="section spotlight-banner" aria-label="Brand Spotlight">
+        <div class="container spotlight__inner">
+          <div class="spotlight__media">
+            <img src="/media/cars/mercedes-amg-g63-2024/cover.webp?v=bespoke" alt="Royal VIP Fleet" loading="lazy" />
+          </div>
+          <div class="spotlight__content">
+            <h3 class="spotlight__brand">BOYSTOY<br /><span>COLLECTION</span></h3>
+            <div class="spotlight__line-wrap">
+              <span class="spotlight__line"></span>
+              <a href="https://instagram.com" target="_blank" rel="noopener" class="spotlight__follow">follow us</a>
+              <span class="spotlight__line"></span>
+            </div>
+            <div class="spotlight__actions">
+              <a class="btn-discover btn-discover--sm" href="#fleet">EXPLORE FLEET</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Luxury Car Rental Amman: VIP Features & Double Image Collage -->
+      <section class="section section--lifestyle-showcase" id="services" aria-labelledby="showcase-title">
+        <div class="container showcase__grid">
+          <div class="showcase__text">
+            <h2 class="showcase__title display" id="showcase-title" data-i18n="showcase.title">LUXURY CAR RENTAL AMMAN</h2>
+            <p class="showcase__desc" data-i18n="showcase.desc">Experience automotive excellence in Jordan. Our curated fleet of Rolls-Royce, Range Rover, Defender, Land Cruiser, and Mercedes-Benz delivers prestige, comfort, and uncompromising VIP performance.</p>
+            <div class="showcase__badges">
+              <div class="showcase__badge">
+                <div class="badge-icon"><i class="ri-speed-up-line"></i></div>
+                <div class="badge-text">
+                  <strong>Motors</strong>
+                  <span>Peak Performance</span>
+                </div>
+              </div>
+              <div class="showcase__badge">
+                <div class="badge-icon"><i class="ri-map-pin-user-line"></i></div>
+                <div class="badge-text">
+                  <strong>Pick up</strong>
+                  <span>VIP Airport Concierge</span>
+                </div>
+              </div>
+              <div class="showcase__badge">
+                <div class="badge-icon"><i class="ri-vip-diamond-line"></i></div>
+                <div class="badge-text">
+                  <strong>Luxury</strong>
+                  <span>Pristine Condition</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="showcase__visuals">
+            <div class="visual-box visual-box--primary">
+              <img src="/media/cars/rolls-royce-ghost-2021/cover.webp?v=bespoke" alt="Luxury Fleet" loading="lazy" />
+            </div>
+            <div class="visual-box visual-box--secondary">
+              <img src="/media/cars/range-rover-autobiography-2024/cover.webp?v=bespoke" alt="Exclusive Range Rover" loading="lazy" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Occasions -->
+      <section class="section section--line" id="experience" aria-labelledby="collections-title">
+        <div class="container">
+          <div class="section-head" data-reveal>
+            <p class="eyebrow" data-i18n="collections.eyebrow"></p>
+            <h2 class="section-title display" id="collections-title" data-i18n="collections.title"></h2>
+          </div>
+          <div class="collection-grid">
+            <button class="collection" type="button" data-collection="classic" data-reveal>
+              <img alt="" loading="lazy" decoding="async" />
+              <h3 class="collection__title" data-i18n="collection.classic.title"></h3>
+              <p class="collection__text" data-i18n="collection.classic.text"></p>
+              <span class="collection__cta"><span data-collection-cta></span><i class="ri-arrow-right-line flip-rtl" aria-hidden="true"></i></span>
+            </button>
+            <button class="collection" type="button" data-collection="luxury" data-reveal>
+              <img alt="" loading="lazy" decoding="async" />
+              <h3 class="collection__title" data-i18n="collection.luxury.title"></h3>
+              <p class="collection__text" data-i18n="collection.luxury.text"></p>
+              <span class="collection__cta"><span data-collection-cta></span><i class="ri-arrow-right-line flip-rtl" aria-hidden="true"></i></span>
+            </button>
+            <button class="collection" type="button" data-collection="suv" data-reveal>
+              <img alt="" loading="lazy" decoding="async" />
+              <h3 class="collection__title" data-i18n="collection.suv.title"></h3>
+              <p class="collection__text" data-i18n="collection.suv.text"></p>
+              <span class="collection__cta"><span data-collection-cta></span><i class="ri-arrow-right-line flip-rtl" aria-hidden="true"></i></span>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- Services -->
+      <section class="section section--line" id="services" aria-labelledby="services-title">
+        <div class="container">
+          <div class="section-head" data-reveal>
+            <p class="eyebrow" data-i18n="services.eyebrow"></p>
+            <h2 class="section-title display" id="services-title" data-i18n="services.title"></h2>
+          </div>
+          <div class="service-grid" data-reveal>
+            <article class="service">
+              <span class="service__icon" aria-hidden="true"><i class="ri-plane-line"></i></span>
+              <h3 class="service__title" data-i18n="service.airport.title"></h3>
+              <p class="service__text" data-service="airport"></p>
+            </article>
+            <article class="service">
+              <span class="service__icon" aria-hidden="true"><i class="ri-user-star-line"></i></span>
+              <h3 class="service__title" data-i18n="service.chauffeur.title"></h3>
+              <p class="service__text" data-service="chauffeur"></p>
+            </article>
+            <article class="service">
+              <span class="service__icon" aria-hidden="true"><i class="ri-hearts-line"></i></span>
+              <h3 class="service__title" data-i18n="service.weddings.title"></h3>
+              <p class="service__text" data-service="weddings"></p>
+            </article>
+            <article class="service">
+              <span class="service__icon" aria-hidden="true"><i class="ri-calendar-schedule-line"></i></span>
+              <h3 class="service__title" data-i18n="service.longterm.title"></h3>
+              <p class="service__text" data-service="longterm"></p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Offers (shown only when the admin has public offers) -->
+      <section class="section section--line" id="offers" data-offers-section hidden aria-labelledby="offers-title">
+        <div class="container">
+          <div class="section-head">
+            <p class="eyebrow" data-i18n="offers.eyebrow"></p>
+            <h2 class="section-title display" id="offers-title" data-i18n="offers.title"></h2>
+          </div>
+          <div class="offer-grid" data-offers></div>
+        </div>
+      </section>
+
+      <!-- Process -->
+      <section class="section section--line" aria-labelledby="process-title">
+        <div class="container">
+          <div class="section-head" data-reveal>
+            <p class="eyebrow" data-i18n="process.eyebrow"></p>
+            <h2 class="section-title display" id="process-title" data-i18n="process.title"></h2>
+          </div>
+          <ol class="steps" data-reveal>
+            <li class="step"><p class="step__num">01</p><h3 class="step__title" data-i18n="step.1.title"></h3><p class="step__text" data-i18n="step.1.text"></p></li>
+            <li class="step"><p class="step__num">02</p><h3 class="step__title" data-i18n="step.2.title"></h3><p class="step__text" data-i18n="step.2.text"></p></li>
+            <li class="step"><p class="step__num">03</p><h3 class="step__title" data-i18n="step.3.title"></h3><p class="step__text" data-i18n="step.3.text"></p></li>
+          </ol>
+        </div>
+      </section>
+
+      <!-- Reviews -->
+      <section class="section section--line" aria-labelledby="reviews-title">
+        <div class="container">
+          <div class="section-head" data-reveal>
+            <p class="eyebrow" data-i18n="reviews.eyebrow"></p>
+            <h2 class="section-title display" id="reviews-title" data-i18n="reviews.title"></h2>
+          </div>
+          <div class="review-grid" data-reviews>
+            <figure class="review" data-reveal>
+              <div class="review__stars" aria-label="5/5">★★★★★</div>
+              <blockquote class="review__text" data-i18n="review.1.text"></blockquote>
+              <figcaption class="review__person"><span class="review__avatar" aria-hidden="true">A</span><span><strong data-i18n="review.1.name"></strong><br /><span class="review__role" data-i18n="review.1.role"></span></span></figcaption>
+            </figure>
+            <figure class="review" data-reveal>
+              <div class="review__stars" aria-label="5/5">★★★★★</div>
+              <blockquote class="review__text" data-i18n="review.2.text"></blockquote>
+              <figcaption class="review__person"><span class="review__avatar" aria-hidden="true">S</span><span><strong data-i18n="review.2.name"></strong><br /><span class="review__role" data-i18n="review.2.role"></span></span></figcaption>
+            </figure>
+            <figure class="review" data-reveal>
+              <div class="review__stars" aria-label="5/5">★★★★★</div>
+              <blockquote class="review__text" data-i18n="review.3.text"></blockquote>
+              <figcaption class="review__person"><span class="review__avatar" aria-hidden="true">C</span><span><strong data-i18n="review.3.name"></strong><br /><span class="review__role" data-i18n="review.3.role"></span></span></figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <!-- FAQ -->
+      <section class="section section--line" aria-labelledby="faq-title">
+        <div class="container split">
+          <div class="section-head" data-reveal>
+            <p class="eyebrow" data-i18n="faq.eyebrow"></p>
+            <h2 class="section-title display" id="faq-title" data-i18n="faq.title"></h2>
+          </div>
+          <div class="faq" data-reveal data-faq>
+            <details><summary><span data-i18n="faq.1.q"></span><i class="ri-add-line" aria-hidden="true"></i></summary><p data-i18n="faq.1.a"></p></details>
+            <details><summary><span data-i18n="faq.2.q"></span><i class="ri-add-line" aria-hidden="true"></i></summary><p data-i18n="faq.2.a"></p></details>
+            <details><summary><span data-i18n="faq.3.q"></span><i class="ri-add-line" aria-hidden="true"></i></summary><p data-i18n="faq.3.a"></p></details>
+            <details><summary><span data-i18n="faq.4.q"></span><i class="ri-add-line" aria-hidden="true"></i></summary><p data-i18n="faq.4.a"></p></details>
+            <details><summary><span data-i18n="faq.5.q"></span><i class="ri-add-line" aria-hidden="true"></i></summary><p data-i18n="faq.5.a"></p></details>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact -->
+      <section class="section section--line" id="contact" aria-labelledby="contact-title">
+        <div class="container">
+          <div class="section-head" data-reveal>
+            <p class="eyebrow" data-i18n="contact.eyebrow"></p>
+            <h2 class="section-title display" id="contact-title" data-i18n="contact.title"></h2>
+            <p class="section-lead" data-i18n="contact.lead"></p>
+          </div>
+          <div class="contact-grid">
+            <form class="panel contact-form" data-contact-form data-reveal>
+              <div class="form-row">
+                <label class="field"><span class="field__label" data-i18n="form.name"></span><input class="control" name="name" required maxlength="100" autocomplete="name" /></label>
+                <label class="field"><span class="field__label" data-i18n="form.phone"></span><input class="control" name="phone" type="tel" maxlength="30" autocomplete="tel" dir="ltr" /></label>
+              </div>
+              <label class="field"><span class="field__label" data-i18n="form.email"></span><input class="control" name="email" type="email" maxlength="120" autocomplete="email" /></label>
+              <label class="field"><span class="field__label" data-i18n="form.message"></span><textarea class="control" name="message" required maxlength="2000" rows="5"></textarea></label>
+              <p class="form-status" data-contact-status role="status"></p>
+              <button class="btn btn--primary" type="submit"><i class="ri-send-plane-line flip-rtl" aria-hidden="true"></i><span data-i18n="form.send"></span></button>
+            </form>
+            <div class="contact-info" data-reveal>
+              <a class="contact-item" data-link="phone" hidden><i class="ri-phone-line" aria-hidden="true"></i><div><small data-i18n="contact.phone"></small><span data-bind="phone" dir="ltr"></span></div></a>
+              <a class="contact-item" data-link="whatsapp" target="_blank" rel="noopener" hidden><i class="ri-whatsapp-line" aria-hidden="true"></i><div><small data-i18n="contact.whatsapp"></small><span data-bind="whatsapp" dir="ltr"></span></div></a>
+              <a class="contact-item" data-link="email" hidden><i class="ri-mail-line" aria-hidden="true"></i><div><small data-i18n="contact.email"></small><span data-bind="email"></span></div></a>
+              <a class="contact-item" data-link="map" target="_blank" rel="noopener" hidden><i class="ri-map-pin-line" aria-hidden="true"></i><div><small data-i18n="contact.address"></small><span data-bind="address"></span></div></a>
+              <div class="contact-item"><i class="ri-time-line" aria-hidden="true"></i><div><small data-i18n="contact.hours"></small><span data-bind="hours"></span></div></div>
+              <div class="map-embed" data-map-wrap><iframe data-map loading="lazy" referrerpolicy="no-referrer-when-downgrade" data-i18n-attr="title:contact.map"></iframe></div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer" id="contact">
+      <div class="container">
+        <div class="footer-showcase-grid">
+          <div class="footer-brand-col">
+            <div class="footer-logo-row">
+              <svg class="brand-car-icon" viewBox="0 0 100 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M5 24 C15 24 24 14 42 12 C58 10 70 15 95 24 M15 24 C22 17 38 12 55 12 C72 12 80 19 88 24 M28 17 C35 13 45 13 52 17 M60 17 C66 13 74 13 79 17" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+              </svg>
+              <span class="footer-brand-title">AUTOCAR</span>
+            </div>
+            <div class="footer-info-lines">
+              <p><i class="ri-map-pin-line"></i> Amman - Jordan</p>
+              <p><i class="ri-phone-line"></i> <span data-bind="phone" dir="ltr">+962 7 9000 0000</span></p>
+              <p><i class="ri-mail-line"></i> <span data-bind="email">info@luxurymotors.jo</span></p>
+            </div>
+            <div class="socials">
+              <a class="icon-btn icon-btn--whatsapp" data-link="whatsapp" target="_blank" rel="noopener" aria-label="WhatsApp"><i class="ri-whatsapp-line"></i></a>
+              <a class="icon-btn" data-link="instagram" target="_blank" rel="noopener" aria-label="Instagram"><i class="ri-instagram-line"></i></a>
+              <a class="icon-btn" data-link="facebook" target="_blank" rel="noopener" aria-label="Facebook"><i class="ri-facebook-fill"></i></a>
+              <a class="icon-btn" data-link="tiktok" target="_blank" rel="noopener" aria-label="TikTok"><i class="ri-tiktok-fill"></i></a>
+            </div>
+          </div>
+
+          <div class="footer-form-col">
+            <form class="footer-contact-form" data-contact-form>
+              <div class="footer-form-row">
+                <input class="control footer-input" name="name" placeholder="First name" required autocomplete="given-name" />
+                <input class="control footer-input" name="lastName" placeholder="Last name" autocomplete="family-name" />
+              </div>
+              <div class="footer-form-row">
+                <input class="control footer-input" name="email" type="email" placeholder="Email" autocomplete="email" required />
+                <input class="control footer-input" name="phone" type="tel" placeholder="Phone number" dir="ltr" required autocomplete="tel" />
+              </div>
+              <div class="footer-form-row footer-form-row--send">
+                <input class="control footer-input" name="message" placeholder="Address / Booking notes" required />
+                <button class="footer-send-btn" type="submit">
+                  <span data-i18n="form.send">Send</span>
+                </button>
+              </div>
+              <p class="form-status" data-contact-status role="status"></p>
+            </form>
+          </div>
+        </div>
+
+        <div class="footer-bottom-row">
+          <p>© <span data-bind="year"></span> <span data-bind="businessName">Luxury Motors</span>. <span data-i18n="footer.rights">All rights reserved.</span></p>
+          <div class="footer-bottom-links">
+            <a href="/admin.html" data-i18n="footer.admin">Staff login</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

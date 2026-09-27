@@ -1,0 +1,23 @@
+{
+  "name": "luxury-motors",
+  "version": "2.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Luxury car rental website with a bilingual storefront, booking engine and admin dashboard.",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "node --watch server/index.js",
+    "test": "node --test --test-concurrency=1 \"tests/*.test.js\"",
+    "media": "python scripts/build-media.py"
+  },
+  "dependencies": {
+    "compression": "^1.8.1",
+    "express": "^5.2.1",
+    "express-rate-limit": "^8.4.1",
+    "helmet": "^8.1.0",
+    "sqlite3": "^6.0.1"
+  }
+}

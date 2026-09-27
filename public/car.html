@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>{{title}}</title>
+    <meta name="description" content="{{description}}" />
+    <meta name="theme-color" content="#0a0a0b" />
+    <link rel="canonical" href="{{url}}" />
+    <meta property="og:type" content="product" />
+    <meta property="og:site_name" content="{{businessName}}" />
+    <meta property="og:title" content="{{title}}" />
+    <meta property="og:description" content="{{description}}" />
+    <meta property="og:image" content="{{image}}" />
+    <meta property="og:url" content="{{url}}" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="icon" href="/assets/img/favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cairo:wght@500;600;700;800&family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=El+Messiri:wght@500;600;700&family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&family=Manrope:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,600;0,700;1,600&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" />
+    <link rel="stylesheet" href="/assets/css/base.css?v=bespoke" />
+    <link rel="stylesheet" href="/assets/css/site.css?v=bespoke" />
+    <script type="module" src="/assets/js/site/car-page.js?v=bespoke"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main" data-i18n="nav.skip">Skip to content</a>
+
+    <header class="site-header site-header--solid" data-header>
+      <div class="container site-header__inner">
+        <a class="brand" href="/" data-brand>Luxury <span class="brand__accent">Motors</span></a>
+        <nav class="nav" data-nav aria-label="Primary">
+          <a href="/#fleet" data-i18n="nav.fleet">Fleet</a>
+          <a href="/#services" data-i18n="nav.services">Services</a>
+          <a href="/#experience" data-i18n="nav.experience">Experience</a>
+          <a href="/#contact" data-i18n="nav.contact">Contact</a>
+        </nav>
+        <div class="header-actions">
+          <button class="btn btn--ghost btn--sm" type="button" data-lang-toggle data-i18n="nav.language" data-i18n-attr="aria-label:nav.languageLabel">العربية</button>
+          <a class="icon-btn icon-btn--whatsapp" data-link="whatsapp" target="_blank" rel="noopener" data-i18n-attr="aria-label:nav.whatsapp" hidden><i class="ri-whatsapp-line" aria-hidden="true"></i></a>
+          <button class="icon-btn menu-btn" type="button" data-menu-toggle aria-expanded="false" data-i18n-attr="aria-label:nav.menu"><i class="ri-menu-4-line" aria-hidden="true"></i></button>
+        </div>
+      </div>
+    </header>
+
+    <main id="main" class="car-page">
+      <div class="container">
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+          <a href="/" data-i18n="car.home">Home</a><span aria-hidden="true">/</span>
+          <a href="/#fleet" data-i18n="car.fleet">Fleet</a><span aria-hidden="true">/</span>
+          <span data-car-crumb aria-current="page"></span>
+        </nav>
+
+        <div data-car-content>
+          <header class="car-head" data-car-head></header>
+
+          <div class="car-layout">
+            <div>
+              <div class="gallery" data-gallery></div>
+
+              <section class="car-section">
+                <h2 class="car-section__title" data-i18n="car.specs"></h2>
+                <div class="spec-grid" data-specs></div>
+              </section>
+
+              <section class="car-section">
+                <h2 class="car-section__title" data-i18n="car.about"></h2>
+                <p class="car-tagline" data-tagline></p>
+                <p class="car-description" data-description></p>
+              </section>
+
+              <section class="car-section">
+                <h2 class="car-section__title" data-i18n="car.included"></h2>
+                <ul class="included-list">
+                  <li><i class="ri-shield-check-line" aria-hidden="true"></i><span data-i18n="included.1"></span></li>
+                  <li><i class="ri-customer-service-2-line" aria-hidden="true"></i><span data-i18n="included.2"></span></li>
+                  <li><i class="ri-sparkling-line" aria-hidden="true"></i><span data-i18n="included.3"></span></li>
+                  <li><i class="ri-user-star-line" aria-hidden="true"></i><span data-i18n="included.4"></span></li>
+                </ul>
+              </section>
+
+              <section class="car-section" data-reserved-section hidden>
+                <h2 class="car-section__title" data-i18n="car.reserved"></h2>
+                <ul class="reserved-list" data-reserved></ul>
+                <p class="field__hint" data-i18n="car.reservedHint"></p>
+              </section>
+            </div>
+
+            <aside>
+              <form class="booking-card" id="booking" data-booking-form>
+                <div class="booking-card__head">
+                  <h2 class="booking-card__title" data-i18n="booking.title"></h2>
+                  <p class="price"><strong data-booking-rate></strong><span data-i18n="card.perDay"></span></p>
+                </div>
+
+                <div class="booking-dates">
+                  <label class="field"><span class="field__label" data-i18n="booking.pickup"></span><input class="control" type="datetime-local" name="pickupAt" required /></label>
+                  <label class="field"><span class="field__label" data-i18n="booking.return"></span><input class="control" type="datetime-local" name="returnAt" required /></label>
+                </div>
+
+                <label class="field">
+                  <span class="field__label" data-i18n="booking.location"></span>
+                  <input class="control" name="pickupLocation" list="locations" required maxlength="200" data-i18n-attr="placeholder:booking.locationPlaceholder" />
+                </label>
+                <datalist id="locations">
+                  <option data-i18n-attr="value:loc.airport"></option>
+                  <option data-i18n-attr="value:loc.hotel"></option>
+                  <option data-i18n-attr="value:loc.showroom"></option>
+                </datalist>
+
+                <p class="group-label" data-i18n="booking.extras"></p>
+                <label class="extra">
+                  <span class="extra__label"><input type="checkbox" name="airportDelivery" /><span data-i18n="extra.airport"></span></span>
+                  <span class="extra__price" data-extra-price="airport"></span>
+                </label>
+                <label class="extra">
+                  <span class="extra__label"><input type="checkbox" name="chauffeur" /><span data-i18n="extra.chauffeur"></span></span>
+                  <span class="extra__price" data-extra-price="chauffeur"></span>
+                </label>
+
+                <div class="field">
+                  <label class="field__label" for="promo-code" data-i18n="booking.promo"></label>
+                  <div class="promo">
+                    <input class="control" id="promo-code" name="promoCode" maxlength="40" autocomplete="off" />
+                    <button class="btn btn--ghost" type="button" data-promo-apply data-i18n="booking.apply"></button>
+                  </div>
+                </div>
+                <p class="promo-status" data-promo-status aria-live="polite"></p>
+
+                <div class="quote" data-quote aria-live="polite"></div>
+                <p class="availability" data-availability hidden></p>
+
+                <p class="group-label" data-i18n="booking.details"></p>
+                <label class="field"><span class="field__label" data-i18n="booking.name"></span><input class="control" name="customerName" required maxlength="100" autocomplete="name" /></label>
+                <div class="two-col">
+                  <label class="field"><span class="field__label" data-i18n="booking.phone"></span><input class="control" name="phone" type="tel" required maxlength="30" autocomplete="tel" dir="ltr" /></label>
+                  <label class="field"><span class="field__label" data-i18n="booking.email"></span><input class="control" name="email" type="email" maxlength="120" autocomplete="email" /></label>
+                </div>
+                <label class="field"><span class="field__label" data-i18n="booking.notes"></span><textarea class="control" name="notes" rows="2" maxlength="1000" data-i18n-attr="placeholder:booking.notesPlaceholder"></textarea></label>
+
+                <p class="form-error" data-form-error role="alert"></p>
+                <div class="booking-actions">
+                  <button class="btn btn--primary btn--block" type="submit" data-book-submit disabled><i class="ri-shield-check-line" aria-hidden="true"></i><span data-i18n="booking.submit"></span></button>
+                  <button class="btn btn--whatsapp btn--block" type="button" data-book-whatsapp disabled><i class="ri-whatsapp-line" aria-hidden="true"></i><span data-i18n="booking.whatsapp"></span></button>
+                </div>
+                <p class="booking-note"><i class="ri-lock-2-line" aria-hidden="true"></i><span data-i18n="booking.noPayment"></span></p>
+              </form>
+            </aside>
+          </div>
+
+          <section class="section" data-similar-section hidden aria-labelledby="similar-title">
+            <h2 class="section-title display" id="similar-title" data-i18n="car.similar"></h2>
+            <div class="fleet-grid" data-similar style="margin-block-start: 2rem"></div>
+          </section>
+        </div>
+
+        <div class="empty-state" data-car-missing hidden>
+          <i class="ri-car-line" aria-hidden="true"></i>
+          <p data-i18n="car.notFound"></p>
+          <a class="btn btn--primary" href="/#fleet" data-i18n="car.backToFleet"></a>
+        </div>
+      </div>
+    </main>
+
+    <div class="mobile-book-bar" data-mobile-bar hidden>
+      <p class="price"><strong data-mobile-price></strong><span data-i18n="card.perDay"></span></p>
+      <button class="btn btn--primary" type="button" data-mobile-book data-i18n="car.bookNow"></button>
+    </div>
+
+    <dialog class="modal" data-confirm-dialog>
+      <div class="confirm" data-confirm-body></div>
+    </dialog>
+  </body>
+</html>

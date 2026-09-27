@@ -1,0 +1,63 @@
+{
+  "testimonials": [
+    {
+      "nameEn": "Ahmad Al-Rashid",
+      "nameAr": "أحمد الراشد",
+      "roleEn": "Business traveller",
+      "roleAr": "رجل أعمال",
+      "textEn": "Absolutely world-class. The car arrived spotless at my hotel and the team was polite and professional. I book every time I visit Amman.",
+      "textAr": "خدمة عالمية بكل المقاييس. وصلت السيارة نظيفة تماماً إلى فندقي والفريق مهذب ومحترف. أحجز معهم في كل زيارة لعمّان.",
+      "rating": 5
+    },
+    {
+      "nameEn": "Sarah Al-Khalidi",
+      "nameAr": "سارة الخالدي",
+      "roleEn": "Corporate client",
+      "roleAr": "عميلة شركات",
+      "textEn": "We rented a Land Cruiser for a corporate delegation. Immaculate, on time at the airport, and flawless communication from start to finish.",
+      "textAr": "استأجرنا لاندكروزر لوفد شركتنا. نظافة مثالية، وصول في الموعد إلى المطار، وتواصل ممتاز من البداية حتى النهاية.",
+      "rating": 5
+    },
+    {
+      "nameEn": "Charles Mercer",
+      "nameAr": "تشارلز ميرسر",
+      "roleEn": "Diplomatic visit",
+      "roleAr": "زيارة دبلوماسية",
+      "textEn": "The chauffeur service is exemplary. A knowledgeable private driver made our business tour smooth and efficient. A true five-star experience.",
+      "textAr": "خدمة السائق الخاص مثالية. وجود سائق يعرف البلد جعل جولتنا التجارية سلسة وسريعة. تجربة خمس نجوم حقيقية.",
+      "rating": 5
+    }
+  ],
+  "faqs": [
+    {
+      "questionEn": "Do I pay online?",
+      "questionAr": "هل أدفع عبر الإنترنت؟",
+      "answerEn": "No. You send a booking request, and our concierge confirms availability and payment details with you directly.",
+      "answerAr": "لا. ترسل طلب الحجز، ويؤكد معك الكونسيرج التوفر وتفاصيل الدفع مباشرة."
+    },
+    {
+      "questionEn": "Can the car be delivered to the airport?",
+      "questionAr": "هل يمكن توصيل السيارة إلى المطار؟",
+      "answerEn": "Yes — to Queen Alia International Airport, your hotel or any address in Amman. Add delivery in the booking form to see the fee.",
+      "answerAr": "نعم — إلى مطار الملكة علياء الدولي أو فندقك أو أي عنوان في عمّان. أضف خيار التوصيل في نموذج الحجز لرؤية الرسوم."
+    },
+    {
+      "questionEn": "Can I book a car with a driver?",
+      "questionAr": "هل يمكنني حجز سيارة مع سائق؟",
+      "answerEn": "Absolutely. Enable “Private chauffeur” when booking; the daily rate is shown before you send the request.",
+      "answerAr": "بالتأكيد. فعّل خيار \"سائق خاص\" عند الحجز، وسيظهر لك السعر اليومي قبل إرسال الطلب."
+    },
+    {
+      "questionEn": "What documents do I need?",
+      "questionAr": "ما هي الأوراق المطلوبة؟",
+      "answerEn": "Our concierge confirms the documents when we contact you — usually a valid driving licence and a passport or national ID.",
+      "answerAr": "يؤكد لك الكونسيرج الأوراق المطلوبة عند التواصل — عادةً رخصة قيادة سارية وجواز سفر أو هوية."
+    },
+    {
+      "questionEn": "How do promo codes work?",
+      "questionAr": "كيف تعمل أكواد الخصم؟",
+      "answerEn": "Enter the code in the booking form and press Apply. It is verified instantly and the saving appears in your total.",
+      "answerAr": "أدخل الكود في نموذج الحجز واضغط تطبيق. يتم التحقق منه فوراً ويظهر التوفير في المجموع."
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+
+node_modules
+*.local
+
+# Runtime data
+# showroom.db (uncomment if you use external DB / persistent disk; kept committed for zero-config deploy)
+*.db-wal
+*.db-shm
+public/uploads/
+
+# Previous prototype and large source assets, kept locally for reference
+_archive/
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.sw?

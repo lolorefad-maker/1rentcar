@@ -1,0 +1,138 @@
+{
+  "name": "Luxury Motors - Lead Automation",
+  "nodes": [
+    {
+      "parameters": {
+        "httpMethod": "POST",
+        "path": "luxury-motors-lead",
+        "responseMode": "onReceived",
+        "responseData": "allEntries"
+      },
+      "id": "webhook-trigger",
+      "name": "Webhook - New Lead",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 1.1,
+      "position": [250, 300]
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "name",
+              "name": "customerName",
+              "value": "={{ $json.customerName }}",
+              "type": "string"
+            },
+            {
+              "id": "phone",
+              "name": "phone",
+              "value": "={{ $json.phone }}",
+              "type": "string"
+            },
+            {
+              "id": "email",
+              "name": "email",
+              "value": "={{ $json.email }}",
+              "type": "string"
+            },
+            {
+              "id": "car",
+              "name": "carInterest",
+              "value": "={{ $json.carInterest }}",
+              "type": "string"
+            },
+            {
+              "id": "price",
+              "name": "totalPrice",
+              "value": "={{ $json.totalPrice }}",
+              "type": "number"
+            },
+            {
+              "id": "formattedPrice",
+              "name": "formattedPrice",
+              "value": "={{ '$' + $json.totalPrice.toLocaleString() }}",
+              "type": "string"
+            },
+            {
+              "id": "timestamp",
+              "name": "timestamp",
+              "value": "={{ $json.timestamp || new Date().toISOString() }}",
+              "type": "string"
+            }
+          ]
+        }
+      },
+      "id": "format-data",
+      "name": "Format Lead Data",
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.3,
+      "position": [480, 300]
+    },
+    {
+      "parameters": {
+        "chatId": "8272879507",
+        "text": "=🚨 *NEW LEAD ALERT* 🚨\n\n👤 *Customer:* {{ $json.customerName }}\n📧 *Email:* {{ $json.email }}\n📱 *Phone:* {{ $json.phone }}\n🚗 *Interested In:* {{ $json.carInterest }}\n💰 *Deal Value:* {{ $json.formattedPrice }}\n🕐 *Time:* {{ $json.timestamp }}\n\n💬 [Click to chat on WhatsApp](https://wa.me/{{ $json.phone.replace(/\\D/g, '') }})",
+        "additionalFields": {
+          "parse_mode": "Markdown"
+        }
+      },
+      "id": "telegram-notify",
+      "name": "Telegram - Sales Alert",
+      "type": "n8n-nodes-base.telegram",
+      "typeVersion": 1.1,
+      "position": [750, 300],
+      "credentials": {
+        "telegramApi": {
+          "id": "",
+          "name": "Telegram Bot"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "url": "=https://api.callmebot.com/whatsapp.php?phone={{ encodeURIComponent($json.phone) }}&text={{ encodeURIComponent('Hello ' + $json.customerName + '! 🏎️\\n\\nThank you for your interest in the *' + $json.carInterest + '*!\\n\\nA VIP specialist from Luxury Motors will contact you shortly to discuss your personalized offer.\\n\\nYour reference price: ' + $json.formattedPrice + '\\n\\n— Luxury Motors Team') }}&apikey=YOUR_CALLMEBOT_API_KEY",
+        "method": "GET",
+        "options": {}
+      },
+      "id": "whatsapp-reply",
+      "name": "WhatsApp - Customer Reply",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.1,
+      "position": [750, 480],
+      "notes": "Uses CallMeBot free WhatsApp API. Replace YOUR_CALLMEBOT_API_KEY with your key from https://www.callmebot.com/blog/free-api-whatsapp-messages/"
+    }
+  ],
+  "connections": {
+    "Webhook - New Lead": {
+      "main": [
+        [
+          {
+            "node": "Format Lead Data",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Format Lead Data": {
+      "main": [
+        [
+          {
+            "node": "Telegram - Sales Alert",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "WhatsApp - Customer Reply",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1"
+  }
+}

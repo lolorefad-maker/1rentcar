@@ -66,7 +66,7 @@ describe('public catalogue', () => {
 
   it('never exposes private settings', async () => {
     const { body } = await pub('GET', '/settings');
-    assert.equal(body.businessName, 'Luxury Motors');
+    assert.equal(body.businessName, '1 Rent Car');
     assert.ok(!('webhookUrl' in body));
   });
 
@@ -467,11 +467,11 @@ describe('pages & SEO', () => {
   it('renders share metadata for cars and redirects old links', async () => {
     const home = await srv.request('GET', '/');
     assert.equal(home.status, 200);
-    assert.match(home.text, /<title>Luxury Motors — Luxury car rental in Amman<\/title>/);
+    assert.match(home.text, /<title>1 Rent Car — Luxury car rental in Amman<\/title>/);
     assert.match(home.text, /\/media\/cars\/[\w-]+\/cover\.webp/);
 
     const page = await srv.request('GET', '/cars/rolls-royce-ghost-2021');
-    assert.match(page.text, /<title>Rolls-Royce Ghost 2021 — Luxury Motors<\/title>/);
+    assert.match(page.text, /<title>Rolls-Royce Ghost 2021 — 1 Rent Car<\/title>/);
     assert.match(page.text, /og:image" content="http:\/\/127\.0\.0\.1:\d+\/media\/cars\/rolls-royce-ghost-2021\/cover\.webp"/);
 
     const old = await srv.request('GET', '/car-detail.html?id=1', { redirect: 'manual' });

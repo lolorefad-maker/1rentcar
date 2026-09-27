@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: luxury-motors
+    name: rentcar1
     env: node
     plan: free
     region: fra
